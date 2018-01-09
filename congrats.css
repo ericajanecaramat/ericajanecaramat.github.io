@@ -1,0 +1,23 @@
+body {
+	background-color: #FFF5EE
+}
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 7px;
+	padding: auto;
+}
+.Level2 {
+	font-style: Times New Roman;
+	 background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Trivia Quiz</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href ="trivia.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "trivia.js"></script>
+
+</head>
+
+
+<body>
+<h1>Computer Trivia Quiz</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">1. What does the acronym USB stand for when referring to a computer port?</p>
+<input type = "radio" id = "mc" name = "question1" value = "a"> Universal Serial Box<br>
+<input type = "radio" id = "mc" name = "question1" value = "b"> Universal Serial Bus<br>
+<input type = "radio" id = "mc" name = "question1" value = "c"> Universal Security Bus<br>
+<input type = "radio" id = "mc" name = "question1" value = "d"> Universal Sound Bar<br>
+
+<p class = "questions">2. What do you call the small image icons used to express emotions or ideas in digital communication?</p>
+<input type = "radio" id = "mc" name = "question2" value = "a">Emoji<br>
+<input type = "radio" id = "mc" name = "question2" value = "b"> Emoticons<br>
+<input type = "radio" id = "mc" name = "question2" value = "c"> Display<br>
+<input type = "radio" id = "mc" name = "question2" value = "d"> Emotions<br>
+
+<p class = "questions">3. When referring to a computer monitor, what does the acronym LCD stand for?</p>
+<input type = "radio" id = "mc" name = "question3" value = "a">Light Camera Display<br>
+<input type = "radio" id = "mc" name = "question3" value = "b">Led Crystal Display<br>
+<input type = "radio" id = "mc" name = "question3" value = "c">Liquid Crystal Display<br>
+<input type = "radio" id = "mc" name = "question3" value = "d"> Led Camera Display<br>
+
+<p class = "questions">4. When talking about computer memory, what does the acronym ROM stand for?</p>
+<input type = "radio" id = "mc" name = "question4" value = "a">Read-Only-Memory<br>
+<input type = "radio" id = "mc" name = "question4" value = "b">Ready-On-Memory<br>
+<input type = "radio" id = "mc" name = "question4" value = "c">Rewrite-Only-Memory<br>
+<input type = "radio" id = "mc" name = "question4" value = "d">Read-On-memory<br>
+
+<p class = "questions">5. Nintendo is a consumer electronics and video game company founded in what country?</p>
+<input type = "radio" id = "mc" name = "question5" value = "a"> Korea<br>
+<input type = "radio" id = "mc" name = "question5" value = "b"> North America<br>
+<input type = "radio" id = "mc" name = "question5" value = "c"> China<br>
+<input type = "radio" id = "mc" name = "question5" value = "d"> Japan<br>
+
+<p class = "questions">6. In a photo editing program, what do the letters RGB stand for?</p>
+<input type = "radio" id = "mc" name = "question6" value = "a"> Rainbow,Green and Black<br>
+<input type = "radio" id = "mc" name = "question6" value = "b"> Red, Green and Blue<br>
+<input type = "radio" id = "mc" name = "question6" value = "c"> Red, Green and Black<br>
+<input type = "radio" id = "mc" name = "question6" value = "d">Rainbow, Green and Blue<br>
+
+<p class = "questions">7. HTML and CSS are computer languages used to create what?</p>
+<input type = "radio" id = "mc" name = "question7" value = "a"> Games<br>
+<input type = "radio" id = "mc" name = "question7" value = "b"> Computer<br>
+<input type = "radio" id = "mc" name = "question7" value = "c"> Websites<br>
+<input type = "radio" id = "mc" name = "question7" value = "d"> Folder<br>
+
+<p class = "questions">8. What does the acronym "lol" stand for when used in phone texts and on the internet?</p>
+<input type = "radio" id = "mc" name = "question8" value = "a"> Lack Of Loud<br>
+<input type = "radio" id = "mc" name = "question8" value = "b"> Laugh Of Lord<br>
+<input type = "radio" id = "mc" name = "question8" value = "c"> Lack Out Loud<br>
+<input type = "radio" id = "mc" name = "question8" value = "d"> Laugh Out Loud<br>
+
+<p class = "questions">9. In a website browser address bar what does "www" stand for?</p>
+<input type = "radio" id = "mc" name = "question9" value = "a"> World Wide Web<br>
+<input type = "radio" id = "mc" name = "question9" value = "b"> World Web Wide<br>
+<input type = "radio" id = "mc" name = "question9" value = "c"> Web Wide World<br>
+<input type = "radio" id = "mc" name = "question9" value = "d"> World Wide Window<br>
+<p class = "questions">10. What year was Facebook founded?</p>
+<input type = "radio" id = "mc" name = "question10" value = "a"> 1998<br>
+<input type = "radio" id = "mc" name = "question10" value = "b"> 2002<br>
+<input type = "radio" id = "mc" name = "question10" value = "c"> 1999<br>
+<input type = "radio" id = "mc" name = "question10" value = "d"> 2004<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+    </html>
+</body>
