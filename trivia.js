@@ -46,7 +46,7 @@ function check(){
 
 
   
-  var pictures = ["images/greatjob.webp", "images/itsokay.gif", "images/better.gif"];
+  var pictures = ["greatjob.webp", "itsokay.gif", "better.gif"];
   var messages = ["Great job!", "That's just okay", "You really need to do better"];
   var range;
 
