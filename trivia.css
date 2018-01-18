@@ -53,8 +53,8 @@ input {
   visibility: hidden;
   background: #ff5459;
   padding: 10px 20px 10px 20px;
-  width: 400px;
-  border-radius: 20px;
+  width: 300px;
+  border-radius: 15px;
   float: left;
   margin-left: 20px;
   font-size: 30px;
