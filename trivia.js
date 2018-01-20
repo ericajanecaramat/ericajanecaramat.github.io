@@ -1,8 +1,8 @@
 var score = 0
 var i = 1
 var ans = 1
-var audio1 = new Audio('audio/audioCorrect.mp3');
-var audio2 = new Audio('audio/audioWrong.mp3');
+var audio1 = new Audio('audioCorrect.mp3');
+var audio2 = new Audio('audioWrong.mp3');
 function correct(){
 document.getElementById("A1").style.visibility="visible";
 }
